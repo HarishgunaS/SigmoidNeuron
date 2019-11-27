@@ -53,7 +53,7 @@ int main()
 		std::cout << (n.predictedOutput(inputs[i])) << " vs. " << outputs[i] << std::endl;
 	}
 	std::cout << "Number of Generations: " << count << std::endl;
-	std::cout << "Test Data" << std::endl;
+	std::cout << "Test Data (Guess vs Actual)" << std::endl;
 	Data t = Data("TestData.csv");
 	inputs = t.returnInputs();
 	outputs = t.returnOutputs();
