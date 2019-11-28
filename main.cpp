@@ -3,7 +3,7 @@
 #include <math.h>
 #include <iostream>
 #include <vector>
-//double inputs[7][3] = { {0, 0, 1}, {1, 1, 1}, {1, 0, 1}, {0, 1, 1}, {1,0,0},{0,1,0},{1,1,0} };
+//double test inputs[7][3] = { {0, 0, 1}, {1, 1, 1}, {1, 0, 1}, {0, 1, 1}, {1,0,0},{0,1,0},{1,1,0} };
 //double outputs[7] = { 0,1,0,1,0,1,1 };
 double errorThreshold = pow(10, 0);
 double learningRate;
